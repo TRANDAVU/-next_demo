@@ -32,66 +32,8 @@ const CustomerComponent = () => {
                             <span className="position">Customer</span>
                         </div>
                     </div>
-                    <div className="card">
-                        <Image src='/images/person_4.jpg' width={100} height={250} alt='' />
-                        <div className="content">
-                            <p className="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and
-                                Consonantia, there live the blind texts.</p>
-                            <p className="name">Jason McClean</p>
-                            <span className="position">Customer</span>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <Image src='/images/person_1.jpg' width={100} height={250} alt='' />
-                        <div className="content">
-                            <p className="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and
-                                Consonantia, there live the blind texts.</p>
-                            <p className="name">Jason McClean</p>
-                            <span className="position">Customer</span>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <Image src='/images/person_2.jpg' width={100} height={250} alt='' />
-                        <div className="content">
-                            <p className="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and
-                                Consonantia, there live the blind texts.</p>
-                            <p className="name">Jason McClean</p>
-                            <span className="position">Customer</span>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <Image src='/images/person_3.jpg' width={100} height={250} alt='' />
-                        <div className="content">
-                            <p className="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and
-                                Consonantia, there live the blind texts.</p>
-                            <p className="name">Jason McClean</p>
-                            <span className="position">Customer</span>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <Image src='/images/person_4.jpg' width={100} height={250} alt='' />
-                        <div className="content">
-                            <p className="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and
-                                Consonantia, there live the blind texts.</p>
-                            <p className="name">Jason McClean</p>
-                            <span className="position">Customer</span>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <Image src='/images/person_1.jpg' width={100} height={250} alt='' />
-                        <div className="content">
-                            <p className="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and
-                                Consonantia, there live the blind texts.</p>
-                            <p className="name">Jason McClean</p>
-                            <span className="position">Customer</span>
-                        </div>
-                    </div>
+                    
                 </div>
-            </div>
-            <div className="map">
-                <button className="active first" />
-                <button className="second" />
-                <button className="third" />
             </div>
         </div>
     );

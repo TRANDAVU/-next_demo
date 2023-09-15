@@ -3,9 +3,9 @@ import { Inter } from "next/font/google";
 import Head from "next/head";
 import Navigation from "../components/navigate";
 import Footer from "../components/footer";
-import ReservationTitleComponent from "../reservation/component/reservation_title";
+import ReservationTitleComponent from "./component/reservation_title";
 
-import ReservationComponent from "../reservation/component/reservation";
+import ReservationComponent from "./component/reservation";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Reservation() {

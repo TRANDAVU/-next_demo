@@ -127,6 +127,28 @@ const Slide = () => {
                 </nav>
             </div>
             {/* slider end */}
+            {/* <div className="demo-cont__credits">
+                <div className="demo-cont__credits-close" />
+                <h2 className="demo-cont__credits-heading">Made by</h2>
+                <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/142996/profile/profile-512_5.jpg" alt="" className="demo-cont__credits-img" />
+                <h3 className="demo-cont__credits-name">Nikolay Talanov</h3>
+                <a href="https://codepen.io/suez/" target="_blank" className="demo-cont__credits-link">My codepen</a>
+                <a href="https://twitter.com/NikolayTalanov" target="_blank" className="demo-cont__credits-link">My twitter</a>
+                <h2 className="demo-cont__credits-heading">Based on</h2>
+                <a href="https://dribbble.com/shots/2375246-Fashion-Butique-slider-animation" target="_blank" className="demo-cont__credits-link">Concept by Kreativa Studio</a>
+                <h4 className="demo-cont__credits-blend">Global Blend Mode</h4>
+                <div className="colorful-switch">
+                    <input type="checkbox" className="colorful-switch__checkbox js-activate-global-blending" id="colorful-switch-cb" />
+                    <label className="colorful-switch__label" htmlFor="colorful-switch-cb">
+                        <span className="colorful-switch__bg" />
+                        <span className="colorful-switch__dot" />
+                        <span className="colorful-switch__on">
+                            <span className="colorful-switch__on__inner" />
+                        </span>
+                        <span className="colorful-switch__off" />
+                    </label>
+                </div>
+            </div> */}
         </div>
     );
 };

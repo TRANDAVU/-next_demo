@@ -445,52 +445,44 @@ AOS.init({
 	window.fncSlider = fncSlider;
 }());
 
-/* not part of the slider scripts */
-
-/* Slider initialization
-options:
-autoSliding - boolean
-autoSlidingDelay - delay in ms. If audoSliding is on and no value provided, default value is 5000
-blockASafterClick - boolean. If user clicked any sliding control, autosliding won't start again
-*/
 fncSlider(".example-slider", {
 	autoSlidingDelay: 4000
 });
 
-var $demoCont = document.querySelector(".demo-cont");
+// var $demoCont = document.querySelector(".demo-cont");
 
-[].slice.call(document.querySelectorAll(".fnc-slide__action-btn")).forEach(function ($btn) {
-	$btn.addEventListener("click", function () {
-		$demoCont.classList.toggle("credits-active");
-	});
-});
+// [].slice.call(document.querySelectorAll(".fnc-slide__action-btn")).forEach(function ($btn) {
+// 	$btn.addEventListener("click", function () {
+// 		$demoCont.classList.toggle("credits-active");
+// 	});
+// });
 
-document.querySelector(".demo-cont__credits-close").addEventListener("click", function () {
-	$demoCont.classList.remove("credits-active");
-});
+// document.querySelector(".demo-cont__credits-close").addEventListener("click", function () {
+// 	$demoCont.classList.remove("credits-active");
+// });
 
-document.querySelector(".js-activate-global-blending").addEventListener("click", function () {
-	document.querySelector(".example-slider").classList.toggle("m--global-blending-active");
-});
+// document.querySelector(".js-activate-global-blending").addEventListener("click", function () {
+// 	document.querySelector(".example-slider").classList.toggle("m--global-blending-active");
+// });
 
 
-const buttonsWrapper = document.querySelector(".map");
-const slides = document.querySelector(".inner");
+// const buttonsWrapper = document.querySelector(".map");
+// const slides = document.querySelector(".inner");
 
-buttonsWrapper.addEventListener("click", e => {
-	if (e.target.nodeName === "BUTTON") {
-		Array.from(buttonsWrapper.children).forEach(item =>
-			item.classList.remove("active")
-		);
-		if (e.target.classList.contains("first")) {
-			slides.style.transform = "translateX(-0%)";
-			e.target.classList.add("active");
-		} else if (e.target.classList.contains("second")) {
-			slides.style.transform = "translateX(-33.33333333333333%)";
-			e.target.classList.add("active");
-		} else if (e.target.classList.contains('third')) {
-			slides.style.transform = 'translatex(-66.6666666667%)';
-			e.target.classList.add('active');
-		}
-	}
-});
+// buttonsWrapper.addEventListener("click", e => {
+// 	if (e.target.nodeName === "BUTTON") {
+// 		Array.from(buttonsWrapper.children).forEach(item =>
+// 			item.classList.remove("active")
+// 		);
+// 		if (e.target.classList.contains("first")) {
+// 			slides.style.transform = "translateX(-0%)";
+// 			e.target.classList.add("active");
+// 		} else if (e.target.classList.contains("second")) {
+// 			slides.style.transform = "translateX(-33.33333333333333%)";
+// 			e.target.classList.add("active");
+// 		} else if (e.target.classList.contains('third')) {
+// 			slides.style.transform = 'translatex(-66.6666666667%)';
+// 			e.target.classList.add('active');
+// 		}
+// 	}
+// });

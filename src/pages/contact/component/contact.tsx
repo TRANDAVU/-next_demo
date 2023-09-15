@@ -32,8 +32,8 @@ const ContactComponent = () => {
                 </div>
                 <div className="form-group">
                   <textarea
-                    name
-                    id
+                    name = ''
+                    id=''
                     cols={30}
                     rows={7}
                     className="form-control"
