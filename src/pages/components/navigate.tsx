@@ -1,8 +1,31 @@
 // Ví dụ sử dụng trong một thành phần khác
-import React from 'react';
+import React, { useEffect } from 'react';
 import Link from 'next/link';
-
 const Navigation = () => {
+    const handleReloadHomeClick = () => {
+        // Reload the page
+        location.replace('/');
+    };
+    const handleReloadAboutHomeClick = () => {
+        // Reload the page
+        location.replace('/about');
+    };
+    const handleReloadMenuHomeClick = () => {
+        // Reload the page
+        location.replace('/menu');
+    };
+    const handleReloadBlogHomeClick = () => {
+        // Reload the page
+        location.replace('/blog');
+    };
+    const handleReloadContactClick = () => {
+        // Reload the page
+        location.replace('/contact');
+    };
+    const handleReloadBookClick = () => {
+        // Reload the page
+        location.replace('/reservation');
+    };
     return (
         <div>
             <div className="py-1 bg-black top">
@@ -63,22 +86,23 @@ const Navigation = () => {
                     <div className="collapse navbar-collapse" id="ftco-nav">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item active">
-                                <Link href="/" className="nav-link"> Home</Link>
+                                <Link href="/" onClick={handleReloadHomeClick} className="nav-link"> Home</Link>
+
                             </li>
                             <li className="nav-item">
-                                <Link href="/about" className="nav-link"> About</Link>
+                                <Link href="/about" onClick={handleReloadAboutHomeClick} className="nav-link"> About</Link>
                             </li>
                             <li className="nav-item">
-                                <Link href="/menu" className="nav-link"> Menu</Link>
+                                <Link href="/menu" onClick={handleReloadMenuHomeClick} className="nav-link"> Menu</Link>
                             </li>
                             <li className="nav-item">
-                                <Link href="/blog" className="nav-link"> Blog</Link>
+                                <Link href="/blog" onClick={handleReloadBlogHomeClick} className="nav-link"> Blog</Link>
                             </li>
                             <li className="nav-item">
-                                <Link href="/contact" className="nav-link"> Contact</Link>
+                                <Link href="/contact" onClick={handleReloadContactClick} className="nav-link"> Contact</Link>
                             </li>
                             <li className="nav-item cta">
-                                <Link href="/reservation" className="nav-link"> Book a table</Link>
+                                <Link href="/reservation" onClick={handleReloadBookClick} className="nav-link"> Book a table</Link>
                             </li>
                         </ul>
                     </div>

@@ -3,9 +3,9 @@ import { Inter } from "next/font/google";
 import Head from "next/head";
 import Navigation from "../components/navigate";
 import Footer from "../components/footer";
-import BlogTitleComponent from "../blog/component/blog_title";
+import BlogTitleComponent from "./component/blog_title";
 
-import BlogComponent from "../blog/component/blog";
+import BlogComponent from "./component/blog";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Blog() {

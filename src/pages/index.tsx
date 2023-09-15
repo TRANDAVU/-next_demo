@@ -12,8 +12,8 @@ import ManagerComponent from './components/index/manager'
 import BookTicketsComponent from './components/index/book_tickets'
 import CustomerComponent from './components/index/customer'
 import BlogComponent from './components/index/blog'
-const inter = Inter({ subsets: ['latin'] })
 
+const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
     return (
         <div>
@@ -21,18 +21,17 @@ export default function Home() {
                 <title>Home</title>
             </Head>
             <Navigation />
-            <Slide/>
-            <AboutComponent/>
-            <AboutComponentV2/>
-            <TimeComponent/>
-            <ServiceComponent/>
-            <MenuComponent/>
-            <ManagerComponent/>
-            <BookTicketsComponent/>
-            <CustomerComponent/>
-            <BlogComponent/>
+            <Slide />
+            <AboutComponent />
+            <AboutComponentV2 />
+            <TimeComponent />
+            <ServiceComponent />
+            <MenuComponent />
+            <ManagerComponent />
+            <BookTicketsComponent />
+            <CustomerComponent />
+            <BlogComponent />
             <Footer />
-
         </div>
     )
 
