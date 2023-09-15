@@ -1,8 +1,8 @@
-import '@/styles/globals.css'
+// import '@/styles/globals.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import '@/styles/open-iconic-bootstrap.min.css'
 import '@/styles/animate.css'
 // import '@/styles/owl.carousel.min.css'
-// import '@/styles/owl.theme.default.min.css'
 import '@/styles/magnific-popup.css'
 import '@/styles/aos.css'
 import '@/styles/ionicons.min.css'
