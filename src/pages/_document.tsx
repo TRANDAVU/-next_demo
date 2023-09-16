@@ -20,7 +20,7 @@ export default function Document() {
         <script async type="text/javascript" src="/js/bootstrap-datepicker.js"></script>
         <script async type="text/javascript" src="/js/jquery.timepicker.min.js"></script>
         <script async type="text/javascript" src="/js/scrollax.min.js"></script>
-        <script async type="text/javascript" src="/js/main.js"></script>
+        <script async type="text/javascript" src="url(js/main.js)"></script>
       </body>
     </Html>
   )
